@@ -11,7 +11,7 @@ export default function App() {
     neutral: 0,
     bad: 0
   });
-
+console.log(votes);
     const handleVote = (type: VoteType) => {
     setVotes(prevVotes => ({
       ...prevVotes,
